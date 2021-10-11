@@ -137,14 +137,8 @@ a{
 /*cột 5*/
 
 .col__header--title .icon5 {
-    color: violet;
+    color: rgb(252, 233, 252);
     font-size: 70px;
-}
-
-.col__spe5{
-    width: 15%;
-    font-size:30px;
-    color: violet;
 }
 
 .col__content img{
@@ -185,11 +179,16 @@ a{
 
     .row{
         height: 100%;
-        padding: 0px 0px;
+        padding: 0px -10px 0px;
+        margin: 0px;
     }
 
-    .col{
-   
+    .col__spe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 7px 0px;
+        padding: 5px 0px;
     }
 
     .col__header{
@@ -202,7 +201,7 @@ a{
         height: 190px;
     }
 
-    .col-about {
-        display: none;
-    }
+
+
+
 }
