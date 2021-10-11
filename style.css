@@ -176,3 +176,33 @@ a{
         height: 100%;
     }
 }
+
+@media screen and (max-width: 1023px) {
+
+    .container{
+        height: 100%;
+    }
+
+    .row{
+        height: 100%;
+        padding: 0px 0px;
+    }
+
+    .col{
+   
+    }
+
+    .col__header{
+        margin-top: 10px;
+    }
+
+    .col__content img {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        height: 190px;
+    }
+
+    .col-about {
+        display: none;
+    }
+}
