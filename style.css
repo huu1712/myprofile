@@ -137,15 +137,16 @@ a{
 /*cột 5*/
 
 .col__header--title .icon5 {
-    color: rgb(252, 233, 252);
+    color: #e0e400;
     font-size: 70px;
 }
 
-.col__content img{
-    margin-left: 100px;
-    width: 150px;
-    height: 190px;
+.col__spe5{
+    width: 15%;
+    font-size:30px;
+    color: #e0e400;
 }
+
 
 /*Cột 6*/
 .col__header--title .icon6 {
