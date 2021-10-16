@@ -29,7 +29,7 @@ body, input, button, option, textarea, label, legend, h1, h2, h3, h4, h5, h6, h1
 
 .col:hover{
     box-shadow:  rgb(255, 255, 255) -10px 10px, rgba(236, 229, 229, 0.2) -15px 15px, rgba(230, 217, 225, 0.1) -20px 20px, rgba(245, 232, 240, 0.05) -25px 25px;
-    cursor: pointer;
+    cursor: default;
     opacity: 1;
 }
 
